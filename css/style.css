@@ -60,7 +60,8 @@ button:hover{
 #answers1 ,
 #answers2 ,
 #answers3 ,
-#answers4{
+#answers4,
+#resumen{
    display: none;
 }
 
