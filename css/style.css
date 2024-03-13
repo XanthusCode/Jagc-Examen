@@ -60,8 +60,7 @@ button:hover{
 #answers1 ,
 #answers2 ,
 #answers3 ,
-#answers4,
-#resumen {
+#answers4{
    display: none;
 }
 
@@ -113,51 +112,53 @@ button:hover{
 }
 
 /* Resumen */
-.resumen p
-{
+#resumen p{
     margin: 20px;
 }
+#resumen i{
+    font-weight: bold;
+}
 
-.resumen .redes-sociales{
+#resumen .redes-sociales{
     display: flex;
     gap: 15px;
     margin: 15px;
     cursor: pointer;
 }
 
-.resumen .redes-sociales p:first-child{
+#resumen .redes-sociales p:first-child{
     background: #0a4b6b;
     padding: 10px;
     border-radius: 4px;
 }
 
-.resumen .redes-sociales p:nth-child(2){
+#resumen .redes-sociales p:nth-child(2){
     background: #699bb4;
     padding: 10px;
     border-radius: 4px;
 }
-.resumen .redes-sociales p:nth-child(3){
+#resumen .redes-sociales p:nth-child(3){
     background: red;
     padding: 10px;
     border-radius: 4px;
 }
-.resumen .redes-sociales p:last-child{
+#resumen .redes-sociales p:last-child{
     background: #7ac4e9;
     padding: 10px;
     border-radius: 4px;
 }
 
-.resumen .redes-sociales p:hover{
+#resumen .redes-sociales p:hover{
     background-color: #b1a0a0;
     transition: all .6s ease;
 }
 
-.resumen span{
+#resumen span{
     font-size: 80px;
     font-weight: bold;
 }
 
-.resumen a{
+#resumen a{
     color: white;
     margin: 50px;
 }
@@ -311,6 +312,38 @@ button:hover{
         text-align: center;
         gap: 150px;
     }
+
+    #resumen .redes-sociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 15px;
+        cursor: pointer; 
+    }
+
+    #resumen .redes-sociales p:first-child{
+        background: #0a4b6b;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    
+    #resumen .redes-sociales p:nth-child(2){
+        background: #699bb4;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    #resumen .redes-sociales p:nth-child(3){
+        background: red;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    #resumen .redes-sociales p:last-child{
+        background: #7ac4e9;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    
 
 
     #resumen span,
